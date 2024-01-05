@@ -1,0 +1,10 @@
+numpy
+pandas
+nltk
+textblob
+BeautifulSoup4
+requests
+dill
+Flask
+
+-e .
