@@ -26,18 +26,20 @@ class DataIngestion:
 
         self.data_ingestion_config = DataIngestionConfig() 
 
-    def initiate_data_ingestion(self): # Add URL here , but now we are hardcoding the value for initial development
+    def initiate_data_ingestion(self,URL): # Add URL here , but now we are hardcoding the value for initial development
 
         try:
 
             # Getting the response from the URL
-            response = requests.get("https://www.imdb.com/title/tt4154796/reviews/?ref_=ttexr_ql_2")
+            response = requests.get(URL)
             logging.info("Got response from URL")
 
             #Calling Beautiful Soup to scrape the response content
             soup = BeautifulSoup(response.content,'html.parser')
             
             review_data = soup.findAll(class_="review-container")
+
+            movie_name = soup.find(class_="parent").h3.a.text
 
             reviews = self.fetching_data(review_data)
             logging.info("Fetching of Reviews completed")
@@ -52,7 +54,7 @@ class DataIngestion:
             return (
 
                     df,
-                    self.data_ingestion_config.raw_data_path
+                    movie_name
 
                     )
 
