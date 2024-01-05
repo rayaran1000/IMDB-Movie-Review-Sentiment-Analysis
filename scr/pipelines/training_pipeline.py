@@ -30,6 +30,4 @@ if __name__ == '__main__':
     review_dataframe['sentiment'] = sentiment
     review_dataframe['subjectivity'] = subjectivity
     review_dataframe['factuality'] = factuality
-
-    print(review_dataframe)
     
