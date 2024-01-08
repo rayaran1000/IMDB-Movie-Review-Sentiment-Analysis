@@ -83,17 +83,21 @@ To deploy this project run
 
 ![IMDB Webpage](https://github.com/rayaran1000/Movie-Review-Sentiment-Analysis/assets/122597408/2e372e82-1db4-4374-b49e-b1f36a42f346)
 
+
 2. Search the Movie you want your reviews on :
 
 ![Searchbar](https://github.com/rayaran1000/Movie-Review-Sentiment-Analysis/assets/122597408/bed1500f-0471-4107-8e1b-2683b9cd7f73)
+
 
 3. Go to the user review section of the movie highlighted below
 
 ![User Review](https://github.com/rayaran1000/Movie-Review-Sentiment-Analysis/assets/122597408/99da8b73-4fe3-4d65-acd3-8e1e5630d928)
 
+
 4. Copy the URL of the User Review section page of the movie
 
 ![URL](https://github.com/rayaran1000/Movie-Review-Sentiment-Analysis/assets/122597408/b1c192e6-058a-47f8-b35f-9d167aa55be2)
+
 ## Exploratory Data Analysis Path followed:
 
 
