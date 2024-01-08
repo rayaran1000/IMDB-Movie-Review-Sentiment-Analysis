@@ -57,15 +57,20 @@
 
         <form action="{{ url_for('predict_datapoint')}}" method="post">
 
-            <!-- Fields and dropdown options for Churn Classification -->
+            <!-- Fields and dropdown options for Review Sentiment Classification -->
             <div class="mb-3">
                 <label class="form-label" for="urlInput">URL : </label>
                 <input class="form-control" type="text" name="urlInput" id="urlInput" placeholder="Enter your IMDB User Review URL" />
             </div>
 
+            <!-- Submit button -->
+            <div class="mb-3">
+                <input class="btn btn-primary" type="submit" value="Predict Reviews" required />
+            </div>
+
             <!-- For demonstration, display the prediction result -->
             <h2>
-                User Reviews for {{movie_name}} are :
+                User Reviews for <span style="color: blue; font-weight: bold;">{{ movie_name }}</span> are:
             </h2>
 
             <table border="1">
@@ -87,10 +92,6 @@
                 </tbody>
             </table>
             
-            <!-- Submit button -->
-            <div class="mb-3">
-                <input class="btn btn-primary" type="submit" value="Predict Reviews" required />
-            </div>
         </form>
     </div>
 

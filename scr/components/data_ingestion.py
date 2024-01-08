@@ -26,7 +26,7 @@ class DataIngestion:
 
         self.data_ingestion_config = DataIngestionConfig() 
 
-    def initiate_data_ingestion(self,URL): # Add URL here , but now we are hardcoding the value for initial development
+    def initiate_data_ingestion(self,URL): 
 
         try:
 
