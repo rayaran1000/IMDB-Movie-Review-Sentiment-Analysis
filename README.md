@@ -1,6 +1,8 @@
 
 # IMDB Movie User Review Sentiment Analysis
 
+![Screenshot 2024-01-08 161359](https://github.com/rayaran1000/Movie-Review-Sentiment-Analysis/assets/122597408/2ed79ddd-0b8b-47c4-aea2-35db59f27d5f)
+
 ### Primary objective
 1. Web Scraping User Reviews: Extract user reviews from the IMDB website efficiently and accurately.
 2. Tabular Format Generation: Organize the scraped reviews into a structured tabular format for easy analysis and presentation.
